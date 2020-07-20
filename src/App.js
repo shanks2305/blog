@@ -38,7 +38,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact>
+        <Route path="/blog" exact>
           <Home loggedIn={state.loggedIn} />
         </Route>
         <Route path="/user/signin" exact component={Signin} />

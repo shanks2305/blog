@@ -40,7 +40,7 @@ const Signin = () => {
 
   return (
     <div className="container">
-      {user.success && <Redirect to="/" />}
+      {user.success && <Redirect to="/blog" />}
       <div className="row">
         <div className="col-md-6 offset-md-3 p-5">
           <h1 className="display-4 text-center">Sign - IN </h1>

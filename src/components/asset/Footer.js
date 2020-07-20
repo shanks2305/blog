@@ -17,7 +17,7 @@ const Footer = ({ loggedIn, logoutUser }) => {
               {loggedIn ? (
                 <Fragment>
                   <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/blog">Home</Link>
                   </li>
                   <li>
                     <Link to="/user/addArticle">Add a Article</Link>

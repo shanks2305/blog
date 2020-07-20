@@ -62,7 +62,7 @@ const AddArticle = () => {
 
   return (
     <div className="col-md-6 offset-md-3 p-5">
-      {redirect && <Redirect to="/" />}
+      {redirect && <Redirect to="/blog" />}
       <h1 className="display-1">Add Article</h1>
       <form>
         <div className="form-group">
